@@ -1,0 +1,61 @@
+header {
+  background: rgba(0, 0, 0, 0.922);
+  color: rgb(244, 244, 244);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px double black;
+  padding: 5px 10px;
+  margin: auto;
+  width: 350px;
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.359);
+
+}
+
+body {
+  background-image: url(fundo.jpeg);
+}
+
+#fotoPerfil {
+  border-radius: 40%;
+  box-shadow: .7px .5px 10px 5px rgba(183, 181, 181, 0.144);
+  margin: auto;
+  display: block;
+}
+
+table,
+td,
+th {
+  background-color: rgba(193, 193, 193, 0.03);
+  border: 1px solid rgb(46, 46, 46);
+  /*cria borda em cada valor, ficará duplicado*/
+  border-collapse: collapse;
+  /*uni as bordas*/
+  padding: 5px 5px;
+}
+
+.conteudo,
+.coluna {
+  text-align: left;
+  background-color: rgba(205, 177, 177, 0.441);
+}
+
+#lermais:hover{
+  color: rgb(70, 5, 211);
+}
+
+#lermais{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+footer{
+  background: rgba(255, 255, 255, 0.16);
+  text-align: center;
+  }
+
+footer:hover{
+  background-color: rgba(127, 255, 212, 0.437);
+}
+
+footer a{
+  display: block;
+}
